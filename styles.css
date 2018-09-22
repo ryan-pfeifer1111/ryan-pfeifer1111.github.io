@@ -2,9 +2,8 @@ body {
   font-family: "Open Sans", helvetica, arial, sans-serif;
   margin: 3vw;
   background: grey;
-  color: grey;
+  color: white;
 }
-
 h1 {
   color: black;
 }
@@ -12,14 +11,6 @@ h1 {
 #me{
   height: 200px;
   width: 125px;
-  animation: blink .15s;
-  animation-iteration-count: infinite;
-}
-.memes{
-  height: 75px;
-  width: 75px;
-  animation: blink .15s;
-  animation-iteration-count: infinite;
 }
 .main{
   display: flex;
@@ -29,10 +20,6 @@ h1 {
 .left, .right{
   width: 50vw;
 }
-
-
-
-
 .wrapper { 
   height: 100%;
   width: 100%;
