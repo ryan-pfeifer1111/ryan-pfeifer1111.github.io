@@ -4,28 +4,7 @@ body {
   background: grey;
   color: white;
 }
+
 h1 {
   color: black;
-}
-
-#me{
-  height: 200px;
-  width: 125px;
-}
-.main{
-  display: flex;
-  justify-content: space-around;
-  height: 70vh;
-}
-.left, .right{
-  width: 50vw;
-}
-.wrapper { 
-  height: 100%;
-  width: 100%;
-  left:0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: absolute;
 }
