@@ -1,10 +1,15 @@
-body {
+body{
   font-family: "Open Sans", helvetica, arial, sans-serif;
   margin: 3vw;
   background: grey;
   color: white;
 }
 
-h1 {
+h1,h2,h3{
   color: black;
+}
+
+.centerImg{
+  width: 1000px;
+  margin: auto;
 }
