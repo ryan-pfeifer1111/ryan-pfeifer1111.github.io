@@ -1,3 +1,3 @@
-# ryan-pfeifer1111.github.io
+Go to ryan-pfeifer1111.github.io to view the website.
 
-to figure out how to use github pages, go here https://pages.github.com/
+To learn more about how to use github pages, go to https://pages.github.com/
