@@ -19,3 +19,13 @@ h3{
   width: 1000px;
   margin: auto;
 }
+
+.vid{
+  width: 720px;
+  height: 405px;
+  margin: auto;
+}
+
+.centered{
+  text-align: center;
+}
