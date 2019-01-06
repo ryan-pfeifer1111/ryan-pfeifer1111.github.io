@@ -3,6 +3,18 @@ body{
   margin: 3vw;
   background: grey;
   color: white;
+  margin-left: 225px;
+}
+
+footer{
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.main{
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 h1{
@@ -15,11 +27,20 @@ h3{
   color: black;
 }
 
-.centerImg{
+.resume{
   width: 1000px;
   margin: auto;
 }
 
+.about{
+  display: inline-block;
+  text-align: left;
+}
+
+#myName{
+  font-size: 54;
+  text-align: center;
+}
 .vid{
   width: 720px;
   height: 405px;
@@ -28,4 +49,28 @@ h3{
 
 .centered{
   text-align: center;
+}
+
+.sidenav{
+  height: 100%;
+  width: 225px;
+  position: fixed;
+  /*z-index: 1;*/
+  top: 0;
+  left: 0;
+  background-color: black;
+  /*overflow-x: hidden;*/
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 3px 5px 15px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: grey;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: white;
 }
