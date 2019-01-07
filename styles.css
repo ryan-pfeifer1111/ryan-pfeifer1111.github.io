@@ -3,7 +3,7 @@ body{
   /*margin: 3vw;*/
   /*background: grey;*/
 
-  background: url(Images/BinaryWallpaper.png) center fixed; 
+  background: url(Images/BinaryWallpaperEDITED3.png) center fixed; 
   background-size: cover;
 
   color: white;
@@ -16,7 +16,7 @@ body{
   /*z-index: 1;*/
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: #0C0C2E;
   /*overflow-x: hidden;*/
   padding-top: 20px;
 }
@@ -25,7 +25,7 @@ body{
   padding: 3px 5px 15px 15px;
   text-decoration: none;
   font-size: 25px;
-  color: grey;
+  color: #365769;;
   display: block;
 }
 
@@ -34,17 +34,18 @@ body{
 }
 
 h1{
-  color: black;
+  color: #0C0C2E;
 }
 h2{
-  color: black;
+  color: #0C0C2E;
 }
 h3{
-  color: black;
+  color: #0C0C2E;
 }
 
 a{
-  color: #00E1FF;
+  /*color: #78B1A6;*/
+  color: #412871;
 }
 
 .vid{
@@ -75,7 +76,7 @@ a{
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   font-weight: bold;
-  color: #0B8494;
+  color: white;
   font-size: 54px;
 }
 
@@ -85,7 +86,7 @@ a{
 }
 
 .aboutContainer, .resumeContainer, .schoolworkContainer, .projectsContainer{
-  background: #0B3F94;
+  background: #2D4C64;
   /*opacity: .75;*/
 }
 
@@ -95,7 +96,7 @@ a{
 }
 
 footer{
-  background: #5F0B94;
+  background: #2D4C64;
   margin-left: 225px;
   padding-top: 50px;
   padding-bottom: 10px;
