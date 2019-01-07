@@ -1,55 +1,12 @@
 body{
   font-family: "Open Sans", helvetica, arial, sans-serif;
-  margin: 3vw;
-  background: grey;
+  /*margin: 3vw;*/
+  /*background: grey;*/
+
+  background: url(Images/BinaryWallpaper.png) center fixed; 
+  background-size: cover;
+
   color: white;
-  margin-left: 225px;
-}
-
-footer{
-  padding-top: 50px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-
-.main{
-  margin-left: 25px;
-  margin-right: 25px;
-}
-
-h1{
-  color: black;
-}
-h2{
-  color: black;
-}
-h3{
-  color: black;
-}
-
-.resume{
-  width: 1000px;
-  margin: auto;
-}
-
-.about{
-  display: inline-block;
-  text-align: left;
-}
-
-#myName{
-  color: black;
-  font-size: 54px;
-  text-align: center;
-}
-.vid{
-  width: 720px;
-  height: 405px;
-  margin: auto;
-}
-
-.centered{
-  text-align: center;
 }
 
 .sidenav{
@@ -74,4 +31,75 @@ h3{
 
 .sidenav a:hover {
   color: white;
+}
+
+h1{
+  color: black;
+}
+h2{
+  color: black;
+}
+h3{
+  color: black;
+}
+
+a{
+  color: #00E1FF;
+}
+
+.vid{
+  width: 720px;
+  height: 405px;
+  margin: auto;
+}
+
+.centered{
+  text-align: center;
+}
+
+.spacer{
+  width:100%;
+  height: 250px;
+}
+
+.main{
+  margin-left: 225px;
+  margin-right: 0px;
+}
+
+#myName{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-weight: bold;
+  color: #0B8494;
+  font-size: 54px;
+}
+
+.about{
+  display: inline-block;
+  text-align: left;
+}
+
+.aboutContainer, .resumeContainer, .schoolworkContainer, .projectsContainer{
+  background: #0B3F94;
+  /*opacity: .75;*/
+}
+
+.resume{
+  width: 1000px;
+  margin: auto;
+}
+
+footer{
+  background: #5F0B94;
+  margin-left: 225px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+
+  opacity: .8;
 }
