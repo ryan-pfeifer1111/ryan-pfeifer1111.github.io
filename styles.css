@@ -3,7 +3,7 @@ body{
   /*margin: 3vw;*/
   /*background: grey;*/
 
-  background: url(Images/BinaryWallpaperEDITED3.png) center fixed; 
+  background: url(Images/Background.png) center fixed; 
   background-size: cover;
 
   color: white;
@@ -37,15 +37,14 @@ h1{
   color: #0C0C2E;
 }
 h2{
-  color: #0C0C2E;
+  color: #2A2A48;
 }
 h3{
   color: #0C0C2E;
 }
 
 a{
-  /*color: #78B1A6;*/
-  color: #412871;
+  color: #392363;
 }
 
 .vid{
@@ -68,21 +67,25 @@ a{
   margin-right: 0px;
 }
 
-#myName{
+.nameContainer{
   margin: 0;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 46.5%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  text-align: center;
+  vertical-align: middle;
   font-weight: bold;
   color: white;
+}
+
+#myName{
   font-size: 54px;
 }
 
-.about{
-  display: inline-block;
-  text-align: left;
+#descriptor{
+  font-size: 34px;
 }
 
 .aboutContainer, .resumeContainer, .schoolworkContainer, .projectsContainer{
@@ -90,8 +93,16 @@ a{
   /*opacity: .75;*/
 }
 
+.about{
+  display: inline-block;
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
 .resume{
   width: 1000px;
+  height: 1000px;
   margin: auto;
 }
 
