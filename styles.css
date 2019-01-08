@@ -1,7 +1,9 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body{
-  font-family: "Open Sans", helvetica, arial, sans-serif;
-  /*margin: 3vw;*/
-  /*background: grey;*/
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 
   background: url(Images/Background.png) center fixed; 
   background-size: cover;
@@ -70,10 +72,12 @@ a{
 .nameContainer{
   margin: 0;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 46.5%;
+  /*
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  */
   text-align: center;
   vertical-align: middle;
   font-weight: bold;
@@ -113,5 +117,5 @@ footer{
   padding-bottom: 10px;
   text-align: center;
 
-  opacity: .8;
+  /*opacity: .8;*/
 }
