@@ -82,14 +82,25 @@ a{
   vertical-align: middle;
   font-weight: bold;
   color: white;
+
+  /*animation: mymove paused 2s 1;*/
+}
+
+@keyframes mymove {
+  from {top: 50%; opacity: 0;}
+  to {top:  35%; opacity: 1;}
 }
 
 #myName{
   font-size: 54px;
+
+  animation-timing-function: ease;
 }
 
 #descriptor{
   font-size: 34px;
+
+  animation-timing-function: ease;
 }
 
 .aboutContainer, .resumeContainer, .schoolworkContainer, .projectsContainer{
@@ -108,13 +119,14 @@ a{
   width: 1000px;
   height: 1000px;
   margin: auto;
+  padding-bottom: 50px;
 }
 
 footer{
   background: #2D4C64;
   margin-left: 225px;
   padding-top: 50px;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
   text-align: center;
 
   /*opacity: .8;*/
