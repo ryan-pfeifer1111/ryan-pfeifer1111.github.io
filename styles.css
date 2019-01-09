@@ -86,10 +86,21 @@ a{
   /*animation: mymove paused 2s 1;*/
 }
 
-@keyframes mymove {
+@keyframes nameAnimation {
   from {top: 50%; opacity: 0;}
   to {top:  35%; opacity: 1;}
 }
+
+@keyframes aboutAnimation {
+  from {margin-left: 50px; opacity: 0;}
+  to {margin-left: 25px; opacity: 1;}
+}
+
+@keyframes sectionsAnimation {
+  from {margin-left: 50px; opacity: 0;}
+  to {margin-left: 0px; opacity: 1;}
+}
+
 
 #myName{
   font-size: 54px;
@@ -105,7 +116,6 @@ a{
 
 .aboutContainer, .resumeContainer, .schoolworkContainer, .projectsContainer{
   background: #2D4C64;
-  /*opacity: .75;*/
 }
 
 .about{
