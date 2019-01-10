@@ -96,9 +96,19 @@ a{
   to {margin-left: 25px; opacity: 1;}
 }
 
-@keyframes sectionsAnimation {
+@keyframes resumeAnimation {
   from {margin-left: 50px; opacity: 0;}
   to {margin-left: 0px; opacity: 1;}
+}
+
+@keyframes sectionsAnimation {
+  /*
+  from {margin-left: 50px; opacity: 0;}
+  to {margin-left: 0px; opacity: 1;}
+  */
+  
+  from {transform: translate(0px, 100px); opacity: 0;}
+    to {transform: translate(0px, 0px); opacity: 1;}
 }
 
 
