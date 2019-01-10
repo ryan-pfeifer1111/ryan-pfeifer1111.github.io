@@ -65,10 +65,16 @@ function animate(element, anim){
     if((top + height >= 0) && (height + window.innerHeight >= bottom)){ //partially visible
         enableAnimation(element, anim);
     }
+    else if(iterator == 0 && (bottom > window.innerHeight && top > window.innerHeight) || (bottom < 0 && top < 0)){//name is not visible
+        element.style.animation =  "";
+        element.style = "opacity: 0;";
+    }
 }
 
 function enableAnimation(element, anim){
     element.style = "opacity: 1;";
     element.style.animation =  anim;
-    animated[iterator] = true;
+    if(iterator != 0){
+        animated[iterator] = true;
+    }
 }
