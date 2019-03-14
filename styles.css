@@ -45,6 +45,10 @@ a{
   color: #392363;
 }
 
+p{
+  font-size: 15pt;
+}
+
 .vid{
   width: 720px;
   height: 405px;
@@ -104,10 +108,14 @@ a{
 }
 
 .resume{
+  /*
   width: 1000px;
   height: 1000px;
-  margin: auto;
-  padding-bottom: 50px;
+  */
+  margin-left: 25px;
+  margin-right: 0px;
+  margin-top: 25px;
+  padding-bottom: 25px;
 }
 
 footer{
