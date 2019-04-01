@@ -15,7 +15,7 @@ for (var i = 1; i < animatedDivs.length; i++) {
     animations[i] = "sectionsAnimation .75s 1";
 }
 
-//keeps track of which animations have played - used to each animation only plays the first time it appears on screen
+//keeps track of which animations have played - used so each animation only plays the first time it appears on screen
 var animated = [];
 for (var i = 0; i < animatedDivs.length; i++) {
     animated[i] = false;
@@ -45,7 +45,7 @@ function animate(element, anim) {
         enableAnimation(element, anim); //animates div if it is partially visible on the screen
     }
     else if (iterator == 0 && (bottom > window.innerHeight && top > window.innerHeight) || (bottom < 0 && top < 0)) {//name is not visible
-        disableAnimation(element); //resets the animation every time it goes off screen, used for the title of the webpage
+        disableAnimation(element); //resets the name animation every time it goes off screen, used for the title of the webpage
     }
 }
 
