@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Ryan Pfeifer</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+  <!--
+    **TODO**
+    MAKE MY SIDEBAR HAVE A HOVERING DROP DOWN MENU
+    https://www.w3schools.com/howto/howto_css_dropdown.asp
+  -->
+  <div class="sidenav">
+    <a href="index.html">Home</a>
+    <a href="personal_projects.html">Personal Projects</a>
+    <a href="#schoolwork">Schoolwork</a>
+    <a style="margin-left: 25px; font-size: 16pt;" href="#school_summary">Summary</a>
+    <a style="margin-left: 25px; font-size: 16pt;" href="#comporg">Computer Organization</a>
+    <a style="margin-left: 25px; font-size: 16pt;" href="#comsys">Computer Systems</a>
+    <a style="margin-left: 25px; font-size: 16pt;" href="#progstudio">Programming Studio</a>
+  </div>
+  <div class="main">
+        <div style="height:1000px">
+                <div class="nameContainer" id="nameAnimator">
+                  <p class="active" id="myName">Schoolwork</p>
+                  <!--<p id="descriptor">&ltProgrammer&gt</p>-->
+                </div>
+              </div>
+
+  <a name="schoolwork"></a>
+    <div class="schoolworkContainer" id="schoolworkContainerAnimator">
+      <div style="margin: 0px 50px 0px 25px; padding-top: 15px;">
+        <h1 id="schoolworkAnimator">Schoolwork</h1>
+        <div id="summaryAnimator">
+          <a name="school_summary"></a>
+          <h2>Summary</h2>
+          <p>C++ is the primary programming language used in the majority of my courses. As such, I have extensive
+            experience with object oriented programming as well as both high and low
+            level programming concepts. Other languages used in my courses include Java, Haskell, Python, and
+            Matlab.
+            I have also taken courses in Data Structures and Algorithms as well as Discrete Mathematics.
+          </p>
+        </div>
+        <a name="comporg"></a>
+        <div id="comporgAnimator">
+          <h2>Computer Organization</h2>
+          <p>In this course, we were instructed to build all of the hardware and software components that make a
+            computer function.
+            I was exposed to many low-level programming concepts in this course including assembly and machine
+            language.</p>
+          <p>I built a fully functional computer from first principles and built and successfully ran rudimentary
+            graphics on it.
+            I also learned how to construct basic logic gates, as well as arithmetic, logic, and sequential chips.
+            I crafted a simple processor architecture through an intuitive machine language supported with
+            an implementation of
+            higher abstractions including a virtual machine, compiler, and a Java-based high-level object oriented
+            language called Jack.</p>
+          <p>As an end-of-course project, I created a game using the computer we had constructed.</p>
+          <div class="vid">
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/hYmu5l94opI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+        <a name="comsys"></a>
+        <div id="comsysAnimator">
+          <h2>Computer Systems</h2>
+          <p>I constructed and learned about several different components that make up a UNIX operating system.</p>
+          <p>I used C++ in conjunction with a UNIX library to create a memory management system, a bash shell, and
+            several inter-process communication methods- shared memory,
+            named and unnamed pipes, and message queues. I also utilized threads and semaphores to implement
+            client-server relationships to allow for data transfer.
+          </p>
+        </div>
+        <a name="os"></a>
+        <div id="osAnimator">
+          <h2>Operating Systems</h2>
+          <p>Throughout the duration of this course, I created a simple operating system that can be booted from an image file.</p>
+          <p>The operating system I made was written in C++. The components that I made included a frame manager and page manager to implement
+            virutal memory, threads and a thread scheduler, and support for multiprogramming with I/O bound threads.
+          </p>
+        </div>
+        <a name="progstudio"></a>
+        <div id="progstudioAnimator">
+          <h2>Programming Studio</h2>
+          <p>This course allowed me to work in different groups to produce several software projects. For each project,
+            we used Git for source control.</p>
+          <p>I volunteered to be the team leader and learned how to manage a group of programmers efficiently
+            so we could produce a project before the deadline. The projects taught me how to create and use
+            client-server relationships, databases,
+            basic artificial intelligence concepts, and graphical user interfaces. We also learned how to develop
+            projects using Agile methodology.
+          </p>
+          <p>My final group project involved creating a graphical user interface for a game we had previously made. We
+            also had to consult a chosen panel of reviewers
+            who critiqued the game after each step in the development process. The resulting game is a culmination of
+            the suggestions from the users as well as
+            quality-of-life improvements implemented by the developers.
+          </p>
+          <div class="vid">
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/oxeiaqRUXdY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+        <a name="graphics"></a>
+        <div id="graphicsAnimator" style="padding-bottom: 50px;">
+          <h2>Computer Graphics</h2>
+          <p>This course used matrix transformations and lighting algorithms to explore the fundamentals of computer graphics.</p>
+          <p>The projects in this class all used the OpenGL library in C++. The projects I completed included making a rasterizer, utilizing
+            hierarchical transformations, writing shaders and making materials for multiple objects in a scene, and using spline curves
+            to interpolate a model between keyframes.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+  <script src="script.js"></script>
+</body>
+<footer>
+  <h3 style="font-size: 15pt" id="footerText">This website was developed by Ryan Pfeifer</h3>
+</footer>
+
+</html>
