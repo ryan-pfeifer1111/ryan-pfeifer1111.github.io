@@ -1,6 +1,8 @@
 //to add a div to the set of animated divs, put the id of the div in this array
 var animatedDivs = [
     "nameAnimator",
+    "schoolNameAnimator",
+    "projNameAnimator",
     "aboutAnimator",
     "resumeAnimator",
     "schoolworkContainerAnimator",
@@ -9,9 +11,11 @@ var animatedDivs = [
 
 //to set the animation of the div, write the CSS code for the corresponding animation and put it in the corresponding spot in this array
 var animations = [
+    "sectionsAnimation 1.5s 1",
+    "sectionsAnimation 1.5s 1",
     "sectionsAnimation 1.5s 1"
 ];
-for (var i = 1; i < animatedDivs.length; i++) {
+for (var i = 3; i < animatedDivs.length; i++) {
     animations[i] = "sectionsAnimation .75s 1";
 }
 
@@ -44,7 +48,7 @@ function animate(element, anim) {
     if ((top + height >= 0) && (height + window.innerHeight >= bottom)) { //partially visible
         enableAnimation(element, anim); //animates div if it is partially visible on the screen
     }
-    else if (iterator == 0 && (bottom > window.innerHeight && top > window.innerHeight) || (bottom < 0 && top < 0)) {//name is not visible
+    else if ((iterator <= 2) && (bottom > window.innerHeight && top > window.innerHeight) || (bottom < 0 && top < 0)) {//name is not visible
         disableAnimation(element); //resets the name animation every time it goes off screen, used for the title of the webpage
     }
 }
@@ -52,7 +56,7 @@ function animate(element, anim) {
 function enableAnimation(element, anim) { //sets the animation of the current div to a given animation
     element.style = "opacity: 1;";
     element.style.animation = anim;
-    if (iterator != 0) {
+    if (iterator > 2) {
         animated[iterator] = true;
     }
 }
@@ -60,4 +64,8 @@ function enableAnimation(element, anim) { //sets the animation of the current di
 function disableAnimation(element) { //sets the animation of the current div to nothing and sets the opacity to 0
     element.style.animation = "";
     element.style = "opacity: 0;";
+}
+
+function change_src(elem, filename){
+    elem.src = filename;
 }

@@ -80,6 +80,28 @@ p{
   color: white;
 }
 
+.projNameContainer{
+  margin: 0;
+  position: absolute;
+  /*top: 35%;*/
+  left: 39%;/*46.5%;*/
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  color: white;
+}
+
+.schoolNameContainer{
+  margin: 0;
+  position: absolute;
+  /*top: 35%;*/
+  left: 44%;/*46.5%;*/
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  color: white;
+}
+
 @keyframes sectionsAnimation {
   from {transform: translate(0px, 100px); opacity: 0;}
     to {transform: translate(0px, 0px); opacity: 1;}
