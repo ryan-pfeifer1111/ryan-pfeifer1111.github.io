@@ -3,14 +3,17 @@ var animatedDivs = [
     "nameAnimator",
     "schoolNameAnimator",
     "projNameAnimator",
+    "inDevNameAnimator",
     "aboutAnimator",
     "resumeAnimator",
     "schoolworkContainerAnimator",
-    "projectsContainerAnimator"
+    "projectsContainerAnimator",
+    "inDevContainerAnimator"
 ];
 
 //to set the animation of the div, write the CSS code for the corresponding animation and put it in the corresponding spot in this array
 var animations = [
+    "sectionsAnimation 1.5s 1",
     "sectionsAnimation 1.5s 1",
     "sectionsAnimation 1.5s 1",
     "sectionsAnimation 1.5s 1"
