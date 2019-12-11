@@ -1,12 +1,12 @@
 //to add a div to the set of animated divs, put the id of the div in this array
 var animatedDivs = [
     "nameAnimator",
-    "schoolNameAnimator",
+    //"schoolNameAnimator",
     "projNameAnimator",
     "inDevNameAnimator",
     "aboutAnimator",
     "resumeAnimator",
-    "schoolworkContainerAnimator",
+    //"schoolworkContainerAnimator",
     "projectsContainerAnimator",
     "inDevContainerAnimator"
 ];
@@ -14,7 +14,7 @@ var animatedDivs = [
 //to set the animation of the div, write the CSS code for the corresponding animation and put it in the corresponding spot in this array
 var animations = [
     "sectionsAnimation 1.5s 1",
-    "sectionsAnimation 1.5s 1",
+    //"sectionsAnimation 1.5s 1",
     "sectionsAnimation 1.5s 1",
     "sectionsAnimation 1.5s 1"
 ];
