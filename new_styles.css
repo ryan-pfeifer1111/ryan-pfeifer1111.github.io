@@ -1,0 +1,78 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: url(Images/Background.png) center fixed; 
+    background-size: cover;
+    color: white;
+  }
+  
+  .sidenav{
+    height: 100%;
+    width: 225px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0C0C2E;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 3px 5px 15px 15px;
+    text-decoration: none;
+    font-size: 19pt;
+    color: #365769;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: white;
+  }
+  
+  h1{
+    color: #0C0C2E;
+  }
+  h2{
+    color: #2A2A48;
+  }
+  h3{
+    color: #0C0C2E;
+  }
+  
+  a{
+    color: #392363;
+  }
+  
+  p{
+    font-size: 15pt;
+  }
+
+  .custom_container{
+    background-color:#2D4C64;
+    text-align: center;
+  }
+
+  .nameContainer{
+    /* position: absolute; */
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    color: white;
+
+    /* background-color: black; */
+  }
+
+  #myName{
+    font-size: 54pt;
+    animation-timing-function: ease;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .about{
+    display: inline-block;
+    text-align: left;
+  }
