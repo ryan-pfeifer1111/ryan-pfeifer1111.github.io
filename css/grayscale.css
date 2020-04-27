@@ -319,16 +319,30 @@ footer {
   animation-timing-function: ease;
 }
 
-.project_video{
+.project_icon_dark{
   background: #0C0C2E;
 }
 
-.project_text{
+.project_icon_light{
+  background: #64a19d;
+}
+
+.project_text_light{
   min-height: 20rem;
   background: #64a19d;
+}
+
+.project_text_dark{
+  min-height: 20rem;
+  background: #0C0C2E;
 }
 
 .spacer{
   width:100%;
   height: 5rem;
+}
+
+.mini_spacer{
+  width:100%;
+  height: 1rem;
 }
