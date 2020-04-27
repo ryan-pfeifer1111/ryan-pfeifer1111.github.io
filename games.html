@@ -10,6 +10,9 @@
 
   <title>Ryan Pfeifer</title>
 
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -20,6 +23,18 @@
 
   <!-- Custom styles for this template -->
   <link href="css/grayscale.css" rel="stylesheet">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    $(function() {
+      AOS.init();
+    });
+
+    $(window).on('load', function() {
+      AOS.refresh();
+    });
+  </script>
   <!-- <link rel="stylesheet" href="styles.css" type="text/css"> -->
 
 </head>
@@ -105,7 +120,7 @@
 
 
       <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+      <div id="frogCroc" class="row align-items-center no-gutters mb-4 mb-lg-5" data-aos="flip-right" data-aos-duration="500" data-aos-once="true">
         <div class="col-xl-8 col-lg-7">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_LSZ7AI8XDo" allowfullscreen></iframe>
@@ -132,7 +147,7 @@
 
 
 <!-- Featured Project Row -->
-      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+      <div id="reflectorVR" class="row align-items-center no-gutters mb-4 mb-lg-5" data-aos="flip-right" data-aos-duration="500" data-aos-once="true">
         <div class="col-xl-8 col-lg-7">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/fKgYltn9GAk" allowfullscreen></iframe>
@@ -165,7 +180,7 @@
 
 
 <!-- Featured Project Row -->
-<div class="row align-items-center no-gutters mb-4 mb-lg-5">
+<div id="dungeon" class="row align-items-center no-gutters mb-4 mb-lg-5" data-aos="flip-right" data-aos-duration="500" data-aos-once="true">
   <div class="col-xl-8 col-lg-7">
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cZYeuaeGyA8" allowfullscreen></iframe>
@@ -193,7 +208,7 @@
 
 
 <!-- Featured Project Row -->
-<div class="row align-items-center no-gutters mb-4 mb-lg-5">
+<div id="honeyUp" class="row align-items-center no-gutters mb-4 mb-lg-5" data-aos="flip-right" data-aos-duration="500" data-aos-once="true">
   <div class="col-xl-8 col-lg-7">
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-jK1l0sGQQE" allowfullscreen></iframe>
@@ -232,7 +247,7 @@
 
 
 <!-- Featured Project Row -->
-<div class="row align-items-center no-gutters mb-4 mb-lg-5">
+<div id="blockBuilder" class="row align-items-center no-gutters mb-4 mb-lg-5" data-aos="flip-right" data-aos-duration="500" data-aos-once="true">
   <div class="col-xl-8 col-lg-7">
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HCekLKh_yQE" allowfullscreen></iframe>
@@ -260,7 +275,7 @@
 
 
 <!-- Featured Project Row -->
-<div class="row align-items-center no-gutters mb-4 mb-lg-5">
+<div id="spellbook" class="row align-items-center no-gutters mb-4 mb-lg-5" data-aos="flip-right" data-aos-duration="500" data-aos-once="true">
   <div class="col-xl-8 col-lg-7">
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/obFG_J1Qi34" allowfullscreen></iframe>
@@ -380,6 +395,8 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
+  <!-- <script src="js/games_script.js"></script>
+  <script src="js/animation_script.js"></script> -->
 
 </body>
 

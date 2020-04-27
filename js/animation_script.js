@@ -1,27 +1,3 @@
-//to add a div to the set of animated divs, put the id of the div in this array
-var animatedDivs = [
-    "nameAnimator",
-    //"schoolNameAnimator",
-    "projNameAnimator",
-    "inDevNameAnimator",
-    "aboutAnimator",
-    "resumeAnimator",
-    //"schoolworkContainerAnimator",
-    "projectsContainerAnimator",
-    "inDevContainerAnimator"
-];
-
-//to set the animation of the div, write the CSS code for the corresponding animation and put it in the corresponding spot in this array
-var animations = [
-    "sectionsAnimation 1.5s 1",
-    //"sectionsAnimation 1.5s 1",
-    "sectionsAnimation 1.5s 1",
-    "sectionsAnimation 1.5s 1"
-];
-for (var i = 3; i < animatedDivs.length; i++) {
-    animations[i] = "sectionsAnimation .75s 1";
-}
-
 //keeps track of which animations have played - used so each animation only plays the first time it appears on screen
 var animated = [];
 for (var i = 0; i < animatedDivs.length; i++) {
@@ -59,7 +35,7 @@ function animate(element, anim) {
 function enableAnimation(element, anim) { //sets the animation of the current div to a given animation
     element.style = "opacity: 1;";
     element.style.animation = anim;
-    if (iterator > 2) {
+    if (element.id != "myName") {
         animated[iterator] = true;
     }
 }
@@ -72,3 +48,5 @@ function disableAnimation(element) { //sets the animation of the current div to 
 function change_src(elem, filename){
     elem.src = filename;
 }
+
+console.log("WE BACK BABAY");

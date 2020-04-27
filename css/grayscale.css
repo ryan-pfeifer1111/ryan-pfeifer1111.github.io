@@ -367,3 +367,18 @@ footer {
   /* border: 2px solid black; */
   /* outline: black solid 1px; */
 }
+
+@keyframes fadeInUp {
+  from {transform: translate(0rem, 5rem); opacity: 0;}
+    to {transform: translate(0rem, 0rem); opacity: 1;}
+}
+
+@keyframes fadeInLeft {
+  from {transform: translate(5rem, 0rem); opacity: 0;}
+    to {transform: translate(0rem, 0rem); opacity: 1;}
+}
+
+@keyframes fadeInRight {
+  from {transform: translate(-5rem, 0rem); opacity: 0;}
+    to {transform: translate(0rem, 0rem); opacity: 1;}
+}
