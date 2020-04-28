@@ -191,7 +191,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #0C0C2E;
   }
 }
 
@@ -205,7 +205,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #0C0C2E;
     border-width: .25rem;
     width: 30%;
   }
@@ -237,7 +237,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #0C0C2E;
 }
 
 .contact-section .card h4 {
@@ -248,7 +248,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #0C0C2E;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -328,12 +328,12 @@ footer {
 }
 
 .project_text_light{
-  min-height: 20rem;
+  /* min-height: 20rem; */
   background: #64a19d;
 }
 
 .project_text_dark{
-  min-height: 20rem;
+  /* min-height: 20rem; */
   background: #0C0C2E;
 }
 
