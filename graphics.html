@@ -19,7 +19,9 @@
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/styles.css" rel="stylesheet">
@@ -27,11 +29,11 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    $(function() {
+    $(function () {
       AOS.init();
     });
 
-    $(window).on('load', function() {
+    $(window).on('load', function () {
       AOS.refresh();
     });
   </script>
@@ -40,18 +42,20 @@
 </head>
 
 <body id="page-top">
-    <!-- Navigation -->
+  <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
         Navigate
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
-              </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="games.html">Games</a>
           </li>
@@ -66,432 +70,283 @@
     </div>
   </nav>
 
-
   <section id="projects" class="projects-section text-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2 class="my-text-light mb-4">Computer Graphics</h2>
-          </div>
-          </div>
+        </div>
+      </div>
 
-
-
-
-
-
+      <!-- OpenGL  -->
       <!-- Featured Project Row -->
-      <!-- <div id="opengl" class="row align-items-center no-gutters mb-4 mb-lg-5" data-aos="zoom-in" data-aos-duration="500" data-aos-once="true">
-        <div class="col-xl-8 col-lg-7">
-          
-          
-
-          <div id="openglCarouselControls" class="carousel slide" data-ride="carousel">
-
-            <ul class="carousel-indicators custom_carousel_controls">
-              <li data-target="#openglCarouselControls" data-slide-to="0" class="active"></li>
-              <li data-target="#openglCarouselControls" data-slide-to="1"></li>
-              <li data-target="#openglCarouselControls" data-slide-to="2"></li>
-              <li data-target="#openglCarouselControls" data-slide-to="3"></li>
-              <li data-target="#openglCarouselControls" data-slide-to="4"></li>
-              <li data-target="#openglCarouselControls" data-slide-to="5"></li>
-            </ul>
-
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a a href="img/bunny1.png" target="_blank" title="Rasterized Bunny with Z Buffering">
-                <img class="d-block w-100" src="img/bunny1.png" alt="Rasterized Bunny with Z Buffering" title="Rasterized Bunny with Z Buffering">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a a href="img/cel_shading_anim.gif" target="_blank" title="Cel Shaded Bunny">
-                <img class="d-block w-100" src="img/cel_shading_anim.gif" alt="Cel Shaded Bunny" title="Cel Shaded Bunny">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a a href="img/robot_transforms_anim.gif" target="_blank" title="Robot with Hierarchical Transformations">
-                <img class="d-block w-100" src="img/robot_transforms_anim.gif" alt="Robot with Hierarchical Transformations" title="Robot with Hierarchical Transformations">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a a href="img/POV_cam_anim.gif" target="_blank" title="First-Person Camera with Directional Lighting">
-                <img class="d-block w-100" src="img/POV_cam_anim.gif" alt="First-Person Camera with Directional Lighting" title="First-Person Camera with Directional Lighting">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a a href="img/heli_anim.gif" target="_blank" title="Helicopter Animated with Keyframes">
-                <img class="d-block w-100" src="img/heli_anim.gif" alt="Helicopter Animated with Keyframes" title="Helicopter Animated with Keyframes">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a a href="img/cheb_anim.gif" target="_blank" title="Skinned Mesh with Skeletal Animation">
-                <img class="d-block w-100" src="img/cheb_anim.gif" alt="Skinned Mesh with Skeletal Animation" title="Skinned Mesh with Skeletal Animation">
-                </a>
-              </div>
- 
-            <a class="carousel-control-prev" href="#openglCarouselControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon custom_carousel_controls" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#openglCarouselControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon custom_carousel_controls" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-          </div>
-
-
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0" data-aos="zoom-in" data-aos-duration="500"
+        data-aos-once="true">
+        <div class="col-lg-6 col-lg-6 col-lg-4">
+          <img class="modal_activator clickable_image img-fluid" src="img/OpenGL/bunny1.png" alt="View Project"
+            title="View Project" data-toggle="modal" data-target="#openglModal" />
         </div>
-        <div class="col-xl-4 col-lg-5">
-          <div class="featured-text text-center text-lg-left project_text_light">
-            <p class="">
-            <h4>OpenGL</h4>
-            <p class=" mb-0">My Computer Graphics covered the graphics pipeline, using matrix stacks
-              to transform
-              objects, writing vertex and fragment shaders in GLSL
-              for multiple objects in a scene, translating coordinates into different coordinate spaces, lighting and
-              cameras, texturing, using spline curves
-              to interpolate a model between keyframes, skinning, and ray tracing. 
-              These are some of the projects I completed as part of this course. All code was written in C++ using the OpenGL library.
-            </p>
+
+        <div class="col-lg-6">
+          <div class="bg-primary text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="modal_activator" data-toggle="modal" data-target="#openglModal"> OpenGL </h4>
+                <p class="mb-0 ">
+                </p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
           </div>
-        </div>
-      </div> -->
-
-
-
-<!-- OpenGL  -->
-<!-- Featured Project Row -->
-<div class="row justify-content-center no-gutters mb-5 mb-lg-0" data-aos="zoom-in" data-aos-duration="500"
-  data-aos-once="true">
-  <!-- <div class="col-lg-6 order-lg-first project-text w-100 my-auto text-center text-lg-left project_icon_dark">
-              <img class="clickable_image img-fluid" src="img/GPURayTracing.png" alt="" data-toggle="modal" data-target="#portfolioModal1" />
-            </div> -->
-
-  <div class="col-lg-6 col-lg-6 col-lg-4">
-    <img class="modal_activator clickable_image img-fluid" src="img/OpenGL/bunny1.png" alt="View Project"
-      title="View Project" data-toggle="modal" data-target="#openglModal" />
-  </div>
-
-  <div class="col-lg-6">
-    <div class="bg-primary text-center h-100 project">
-      <div class="d-flex h-100">
-        <div class="project-text w-100 my-auto text-center text-lg-left">
-          <h4 class="modal_activator" data-toggle="modal" data-target="#openglModal"> OpenGL </h4>
-          <p class="mb-0 ">
-          </p>
-          <hr class="d-none d-lg-block mb-0 ml-0">
         </div>
       </div>
-    </div>
-  </div>
-</div>
 
+      <!-- OpenGL Modals-->
+      <div class="portfolio-modal modal fade" id="openglModal" tabindex="-1" role="dialog" aria-labelledby="openglModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><i class="fas fa-times"></i></span>
+            </button>
+            <div class="modal-body text-center">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <!-- Portfolio Modal - Title-->
+                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">OpenGL</h2>
 
+                    <!-- Icon Divider-->
+                    <div class="divider-custom">
+                      <div class="divider-custom-line"></div>
+                      <div class="divider-custom-icon"><i class="fas fa-cube fa-2x"></i></div>
+                      <div class="divider-custom-line"></div>
+                    </div>
 
-<!-- OpenGL Modals-->
-<div class="portfolio-modal modal fade" id="openglModal" tabindex="-1" role="dialog" aria-labelledby="openglModal"
-  aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-      </button>
-      <div class="modal-body text-center">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <!-- Portfolio Modal - Title-->
-              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">OpenGL</h2>
+                    <div class="mini_spacer"></div>
 
-              <!-- Icon Divider-->
-              <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-gamepad fa-2x"></i></div>
-                <div class="divider-custom-line"></div>
+                    <!-- Portfolio Modal - Text-->
+                    <p class="mb-5">
+                      My Computer Graphics covered the graphics pipeline, using matrix stacks
+                      to transform
+                      objects, writing vertex and fragment shaders in GLSL
+                      for multiple objects in a scene, translating coordinates into different coordinate spaces,
+                      lighting and
+                      cameras, texturing, using spline curves
+                      to interpolate a model between keyframes, skinning, and ray tracing.
+                      These are some of the projects I completed as part of this course. All code was written in C++
+                      using the OpenGL library.
+                    </p>
+
+                    <div id="openglCarouselControls" class="carousel slide" data-ride="carousel">
+
+                      <ul class="carousel-indicators custom_carousel_controls">
+                        <li data-target="#openglCarouselControls" data-slide-to="0" class="active"></li>
+                        <li data-target="#openglCarouselControls" data-slide-to="1"></li>
+                        <li data-target="#openglCarouselControls" data-slide-to="2"></li>
+                        <li data-target="#openglCarouselControls" data-slide-to="3"></li>
+                        <li data-target="#openglCarouselControls" data-slide-to="4"></li>
+                        <li data-target="#openglCarouselControls" data-slide-to="5"></li>
+                      </ul>
+
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <a a href="img/bunny1.png" target="_blank" title="Rasterized Bunny with Z Buffering">
+                            <img class="d-block w-100" src="img/opengl/bunny1.png"
+                              alt="Rasterized Bunny with Z Buffering" title="Rasterized Bunny with Z Buffering">
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <a a href="img/cel_shading_anim.gif" target="_blank" title="Cel Shaded Bunny">
+                            <img class="d-block w-100" src="img/opengl/cel_shading_anim.gif" alt="Cel Shaded Bunny"
+                              title="Cel Shaded Bunny">
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <a a href="img/robot_transforms_anim.gif" target="_blank"
+                            title="Robot with Hierarchical Transformations">
+                            <img class="d-block w-100" src="img/opengl/robot_transforms_anim.gif"
+                              alt="Robot with Hierarchical Transformations"
+                              title="Robot with Hierarchical Transformations">
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <a a href="img/POV_cam_anim.gif" target="_blank"
+                            title="First-Person Camera with Directional Lighting">
+                            <img class="d-block w-100" src="img/opengl/POV_cam_anim.gif"
+                              alt="First-Person Camera with Directional Lighting"
+                              title="First-Person Camera with Directional Lighting">
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <a a href="img/heli_anim.gif" target="_blank" title="Helicopter Animated with Keyframes">
+                            <img class="d-block w-100" src="img/opengl/heli_anim.gif"
+                              alt="Helicopter Animated with Keyframes" title="Helicopter Animated with Keyframes">
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <a a href="img/cheb_anim.gif" target="_blank" title="Skinned Mesh with Skeletal Animation">
+                            <img class="d-block w-100" src="img/opengl/cheb_anim.gif"
+                              alt="Skinned Mesh with Skeletal Animation" title="Skinned Mesh with Skeletal Animation">
+                          </a>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#openglCarouselControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon custom_carousel_controls" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#openglCarouselControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon custom_carousel_controls" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="mini_spacer"></div>
+
+                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                        class="fas fa-times fa-fw"></i>Close
+                      Window</button>
+                  </div>
+                </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-              <div class="mini_spacer"></div>
+      <div class="spacer"></div>
 
-              <!-- Portfolio Modal - Text-->
-              <p class="mb-5">
-                My Computer Graphics covered the graphics pipeline, using matrix stacks
-              to transform
-              objects, writing vertex and fragment shaders in GLSL
-              for multiple objects in a scene, translating coordinates into different coordinate spaces, lighting and
-              cameras, texturing, using spline curves
-              to interpolate a model between keyframes, skinning, and ray tracing. 
-              These are some of the projects I completed as part of this course. All code was written in C++ using the OpenGL library.
-              </p>
+      <!-- Unity  -->
+      <!-- Featured Project Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0" data-aos="zoom-in" data-aos-duration="500"
+        data-aos-once="true">
+        <div class="col-lg-6 col-lg-6 col-lg-4">
+          <img class="modal_activator clickable_image img-fluid" src="img/Unity/GPURayTracing.png" alt="View Project"
+            title="View Project" data-toggle="modal" data-target="#unityModal" />
+        </div>
 
-              <div id="openglCarouselControls" class="carousel slide" data-ride="carousel">
-
-                <ul class="carousel-indicators custom_carousel_controls">
-                  <li data-target="#openglCarouselControls" data-slide-to="0" class="active"></li>
-                  <li data-target="#openglCarouselControls" data-slide-to="1"></li>
-                  <li data-target="#openglCarouselControls" data-slide-to="2"></li>
-                  <li data-target="#openglCarouselControls" data-slide-to="3"></li>
-                  <li data-target="#openglCarouselControls" data-slide-to="4"></li>
-                  <li data-target="#openglCarouselControls" data-slide-to="5"></li>
-                </ul>
-    
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a a href="img/bunny1.png" target="_blank" title="Rasterized Bunny with Z Buffering">
-                    <img class="d-block w-100" src="img/opengl/bunny1.png" alt="Rasterized Bunny with Z Buffering" title="Rasterized Bunny with Z Buffering">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a a href="img/cel_shading_anim.gif" target="_blank" title="Cel Shaded Bunny">
-                    <img class="d-block w-100" src="img/opengl/cel_shading_anim.gif" alt="Cel Shaded Bunny" title="Cel Shaded Bunny">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a a href="img/robot_transforms_anim.gif" target="_blank" title="Robot with Hierarchical Transformations">
-                    <img class="d-block w-100" src="img/opengl/robot_transforms_anim.gif" alt="Robot with Hierarchical Transformations" title="Robot with Hierarchical Transformations">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a a href="img/POV_cam_anim.gif" target="_blank" title="First-Person Camera with Directional Lighting">
-                    <img class="d-block w-100" src="img/opengl/POV_cam_anim.gif" alt="First-Person Camera with Directional Lighting" title="First-Person Camera with Directional Lighting">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a a href="img/heli_anim.gif" target="_blank" title="Helicopter Animated with Keyframes">
-                    <img class="d-block w-100" src="img/opengl/heli_anim.gif" alt="Helicopter Animated with Keyframes" title="Helicopter Animated with Keyframes">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a a href="img/cheb_anim.gif" target="_blank" title="Skinned Mesh with Skeletal Animation">
-                    <img class="d-block w-100" src="img/opengl/cheb_anim.gif" alt="Skinned Mesh with Skeletal Animation" title="Skinned Mesh with Skeletal Animation">
-                    </a>
-                  </div>
-     
-                <a class="carousel-control-prev" href="#openglCarouselControls" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon custom_carousel_controls" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#openglCarouselControls" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon custom_carousel_controls" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+        <div class="col-lg-6">
+          <div class="bg-primary text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="modal_activator" data-toggle="modal" data-target="#unityModal"> Unity </h4>
+                <p class="mb-0 ">
+                </p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unity Modals-->
+      <div class="portfolio-modal modal fade" id="unityModal" tabindex="-1" role="dialog" aria-labelledby="unityModal"
+        aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><i class="fas fa-times"></i></span>
+            </button>
+            <div class="modal-body text-center">
+              <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                    <!-- Portfolio Modal - Title-->
+                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Unity</h2>
+
+                    <!-- Icon Divider-->
+                    <div class="divider-custom">
+                      <div class="divider-custom-line"></div>
+                      <div class="divider-custom-icon"><i class="fas fa-cube fa-2x"></i></div>
+                      <div class="divider-custom-line"></div>
+                    </div>
+
+                    <div class="mini_spacer"></div>
+
+                    <!-- Portfolio Modal - Text-->
+                    <p class="mb-5">
+                      I have been researching and following online tutorials for different aspects of computer graphics
+                      that I wanted to learn more about.
+                      I was able to learn how to make a GPU ray tracer and create a procedural terrain generation system
+                      for infinite worlds in Unity.
+                      These projects exposed me to HLSL, Unity's shading language, and deforming meshes in real time.
+                    </p>
+
+                    <div id="unityCarouselControls" class="carousel slide" data-ride="carousel">
+
+                      <ul class="carousel-indicators custom_carousel_controls">
+                        <li data-target="#unityCarouselControls" data-slide-to="0" class="active"></li>
+                        <li data-target="#unityCarouselControls" data-slide-to="1"></li>
+                      </ul>
+
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <a a href="img/GPURayTracing.png" target="_blank" title="GPU Ray Tracer in Unity">
+                            <img class="d-block w-100" src="img/Unity/GPURayTracing.png" alt="GPU Ray Tracer in Unity"
+                              title="GPU Ray Tracer in Unity">
+                          </a>
+                        </div>
+                        <div class="carousel-item">
+                          <a a href="img/procedural_terrain.png" target="_blank"
+                            title="Procedural Terrain Generator in Unity">
+                            <img class="d-block w-100" src="img/Unity/procedural_terrain.png"
+                              alt="Procedural Terrain Generator in Unity" title="Procedural Terrain Generator in Unity">
+                          </a>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#unityCarouselControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon custom_carousel_controls" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#unityCarouselControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon custom_carousel_controls" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="mini_spacer"></div>
+
+                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i
+                        class="fas fa-times fa-fw"></i>Close
+                      Window</button>
+                  </div>
+                </div>
               </div>
-
-              <div class="mini_spacer"></div>
-
-              <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close
-                Window</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </section>
 
-
-
-
-
-
-
-
- <!-- Featured Project Row -->
- <!-- <div id="unity" class="row align-items-center no-gutters mb-4 mb-lg-5" data-aos="zoom-in" data-aos-duration="500" data-aos-once="true">
-  <div class="col-xl-8 col-lg-7">
-
-    <div id="unityCarouselControls" class="carousel slide" data-ride="carousel">
-
-      <ul class="carousel-indicators custom_carousel_controls">
-        <li data-target="#unityCarouselControls" data-slide-to="0" class="active"></li>
-        <li data-target="#unityCarouselControls" data-slide-to="1"></li>
-      </ul>
-
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <a a href="img/GPURayTracing.png" target="_blank" title="GPU Ray Tracer in Unity">
-            <img class="d-block w-100" src="img/GPURayTracing.png" alt="GPU Ray Tracer in Unity" title="GPU Ray Tracer in Unity">
-          </a>
-        </div>
-        <div class="carousel-item">
-          <a a href="img/procedural_terrain.png" target="_blank" title="Procedural Terrain Generator in Unity">
-            <img class="d-block w-100" src="img/procedural_terrain.png" alt="Procedural Terrain Generator in Unity" title="Procedural Terrain Generator in Unity">
-          </a>
-        </div>
-       
-      <a class="carousel-control-prev" href="#unityCarouselControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon custom_carousel_controls" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+  <!-- Contact Section -->
+  <section class="contact-section bg-primary">
+    <div class="social d-flex justify-content-center">
+      <a href="https://privateryan1111.itch.io/" target="_blank" class="mx-2" alt="View my Itch.io games"
+        title="View my Itch.io games">
+        <i class="fab fa-itch-io"></i>
       </a>
-      <a class="carousel-control-next" href="#unityCarouselControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon custom_carousel_controls" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+      <a href="https://github.com/ryan-pfeifer1111" target="_blank" class="mx-2" alt="View my GitHub repos"
+        title="View my GitHub repos">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.youtube.com/playlist?list=PLpyXhHVrphf1XO-h_4_X6269DH9tZJMww" target="_blank" class="mx-2"
+        alt="View my project videos on YouTube" title="View my project videos on YouTube">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/ryan-pfeifer-3a66a6161/" target="_blank" class="mx-2"
+        alt="Connect with me on LinkedIn" title="Connect with me on LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="mailto:ryanpfeifer1111@gmail.com" target="_blank" class="mx-2" alt="Shoot me an email"
+        title="Shoot me an email">
+        <i class=" fas fa-envelope"></i>
       </a>
     </div>
-    </div>
-    
-    </div>
-    <div class="col-xl-4 col-lg-5">
-      <div class="featured-text text-center text-lg-left project_text_light">
-        <p class="">
-        <h4>Unity</h4>
-        <p class=" mb-0">
-          I have been researching and following online tutorials for different aspects of computer graphics that I wanted to learn more about.
-          I was able to learn how to make a GPU ray tracer and create a procedural terrain generation system for infinite worlds in Unity.
-          These projects exposed me to HLSL, Unity's shading language, and deforming meshes in real time.
-        </p>
-      </div>
-    </div>
-  </div> -->
+  </section>
 
-  <div class="spacer"></div>  
-
-
-
-
-    <!-- Unity  -->
-<!-- Featured Project Row -->
-<div class="row justify-content-center no-gutters mb-5 mb-lg-0" data-aos="zoom-in" data-aos-duration="500"
-data-aos-once="true">
-<!-- <div class="col-lg-6 order-lg-first project-text w-100 my-auto text-center text-lg-left project_icon_dark">
-            <img class="clickable_image img-fluid" src="img/GPURayTracing.png" alt="" data-toggle="modal" data-target="#portfolioModal1" />
-          </div> -->
-
-<div class="col-lg-6 col-lg-6 col-lg-4">
-  <img class="modal_activator clickable_image img-fluid" src="img/Unity/GPURayTracing.png" alt="View Project"
-    title="View Project" data-toggle="modal" data-target="#unityModal" />
-</div>
-
-<div class="col-lg-6">
-  <div class="bg-primary text-center h-100 project">
-    <div class="d-flex h-100">
-      <div class="project-text w-100 my-auto text-center text-lg-left">
-        <h4 class="modal_activator" data-toggle="modal" data-target="#unityModal"> Unity </h4>
-        <p class="mb-0 ">
-        </p>
-        <hr class="d-none d-lg-block mb-0 ml-0">
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Unity Modals-->
-<div class="portfolio-modal modal fade" id="unityModal" tabindex="-1" role="dialog" aria-labelledby="unityModal"
-  aria-hidden="true">
-  <div class="modal-dialog modal-xl" role="document">
-    <div class="modal-content">
-      <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-      </button>
-      <div class="modal-body text-center">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <!-- Portfolio Modal - Title-->
-              <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Unity</h2>
-
-              <!-- Icon Divider-->
-              <div class="divider-custom">
-                <div class="divider-custom-line"></div>
-                <div class="divider-custom-icon"><i class="fas fa-gamepad fa-2x"></i></div>
-                <div class="divider-custom-line"></div>
-              </div>
-
-              <div class="mini_spacer"></div>
-
-              <!-- Portfolio Modal - Text-->
-              <p class="mb-5">
-                I have been researching and following online tutorials for different aspects of computer graphics that I wanted to learn more about.
-                I was able to learn how to make a GPU ray tracer and create a procedural terrain generation system for infinite worlds in Unity.
-                These projects exposed me to HLSL, Unity's shading language, and deforming meshes in real time.
-              </p>
-
-              <div id="unityCarouselControls" class="carousel slide" data-ride="carousel">
-
-                <ul class="carousel-indicators custom_carousel_controls">
-                  <li data-target="#unityCarouselControls" data-slide-to="0" class="active"></li>
-                  <li data-target="#unityCarouselControls" data-slide-to="1"></li>
-                </ul>
-          
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a a href="img/GPURayTracing.png" target="_blank" title="GPU Ray Tracer in Unity">
-                      <img class="d-block w-100" src="img/Unity/GPURayTracing.png" alt="GPU Ray Tracer in Unity" title="GPU Ray Tracer in Unity">
-                    </a>
-                  </div>
-                  <div class="carousel-item">
-                    <a a href="img/procedural_terrain.png" target="_blank" title="Procedural Terrain Generator in Unity">
-                      <img class="d-block w-100" src="img/Unity/procedural_terrain.png" alt="Procedural Terrain Generator in Unity" title="Procedural Terrain Generator in Unity">
-                    </a>
-                  </div>
-                 
-                <a class="carousel-control-prev" href="#unityCarouselControls" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon custom_carousel_controls" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#unityCarouselControls" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon custom_carousel_controls" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
-              </div>
-
-              <div class="mini_spacer"></div>
-
-              <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close
-                Window</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-</div>
-</section>
-
- <!-- Contact Section -->
- <section class="contact-section bg-primary">
-  <div class="social d-flex justify-content-center">
-    <a href="https://privateryan1111.itch.io/" target="_blank" class="mx-2" alt="View my Itch.io games" title="View my Itch.io games">
-      <i class="fab fa-itch-io"></i>
-    </a>
-    <a href="https://github.com/ryan-pfeifer1111" target="_blank" class="mx-2" alt="View my GitHub repos" title="View my GitHub repos">
-      <i class="fab fa-github"></i>
-    </a>
-    <a href="https://www.youtube.com/playlist?list=PLpyXhHVrphf1XO-h_4_X6269DH9tZJMww" target="_blank" class="mx-2" alt="View my project videos on YouTube" title="View my project videos on YouTube">
-      <i class="fab fa-youtube"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/ryan-pfeifer-3a66a6161/" target="_blank" class="mx-2" alt="Connect with me on LinkedIn" title="Connect with me on LinkedIn">
-      <i class="fab fa-linkedin"></i>
-    </a>
-    <a href="mailto:ryanpfeifer1111@gmail.com" target="_blank" class="mx-2" alt="Shoot me an email" title="Shoot me an email">
-      <i class=" fas fa-envelope" ></i>
-    </a>
-  </div>
-</section>
-  
   <!-- Footer -->
   <footer class="bg-primary small text-center">
     <div class="container">
