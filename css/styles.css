@@ -146,20 +146,20 @@
 }
 
 .btn-primary {
-  background-color: #80c1d1;
+  background-color: #047896;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #809da4;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #809da4;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #809da4 !important;
 }
 
 .about-section {
@@ -383,10 +383,65 @@ footer {
     to {transform: translate(0rem, 0rem); opacity: 1;}
 }
 
+.clickable_image{
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.clickable_image:hover {
+  filter: brightness(60%);
+}
+
+/* .container:hover .modal_overlay {
+  opacity: 0.5;
+}
+
+.modal_overlay {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s;
+  color: white;
+  cursor: pointer;
+} */
+
+.modal_activator{
+  color: #047896;
+  /* cursor: pointer; */
+}
+.modal_activator:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: #809da4;
+}
+
+.fit-image{
+  width: 100%;
+  object-fit: cover;
+  }
+
 .my-text-light{
   color: #D0E8E9;
 }
 
 .my-text-dark{
   color: #002730;
+}
+
+.portfolio-modal .close {
+  position: absolute;
+  z-index: 1;
+  right: 1.5rem;
+  top: 1rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #047896;
+  opacity: 1;
 }
