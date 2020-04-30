@@ -150,16 +150,16 @@
 }
 
 .btn-primary:hover {
-  background-color: #809da4;
+  background-color: #D0E8E9;
 }
 
 .btn-primary:focus {
-  background-color: #809da4;
+  background-color: #D0E8E9;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #809da4 !important;
+  background-color: #D0E8E9 !important;
 }
 
 .about-section {
@@ -268,7 +268,7 @@
 }
 
 .contact-section .social a:hover {
-  color: #809da4;
+  color: #D0E8E9;
 }
 
 .contact-section .social a:active {
@@ -288,7 +288,7 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #809da4;
+  color: #D0E8E9;
 }
 
 .bg-black {
@@ -419,7 +419,7 @@ footer {
 .modal_activator:hover{
   cursor: pointer;
   text-decoration: none;
-  color: #809da4;
+  color: #D0E8E9;
 }
 
 .fit-image{
@@ -444,4 +444,12 @@ footer {
   line-height: 3rem;
   color: #047896;
   opacity: 1;
+}
+
+.portfolio-modal .close:hover{
+  color: #D0E8E9;
+}
+
+.modal_light{
+  background: #80c1d1;
 }
