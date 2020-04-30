@@ -50,6 +50,7 @@
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link {
+    font-size: 1.25rem;
     transition: none;
     padding: 2rem 1.5rem;
     color: #B5CCCE;
@@ -90,7 +91,6 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  /* background: "img/Background.png"; */
   /* background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -192,7 +192,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 1em 0 2rem;
-    border-left: 0.5rem solid #002730;
+    border-left: 0.5rem solid #044254;
   }
 }
 
@@ -206,7 +206,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #002730;
+    border-color: #044254;
     border-width: .25rem;
     width: 30%;
   }
@@ -453,4 +453,14 @@ footer {
 
 .modal_light{
   background: #80c1d1;
+}
+
+.banner_background{
+  z-index: -99;
+  position: absolute;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
