@@ -23,7 +23,7 @@ body{
   padding: 3px 5px 15px 15px;
   text-decoration: none;
   font-size: 19pt;
-  color: #365769;;
+  color: #365769;
   display: block;
 }
 
@@ -118,6 +118,15 @@ p{
     to {transform: translate(0px, 0px); opacity: 1;}
 }
 
+@keyframes fadeInLeft {
+  from {transform: translate(100px, 100px); opacity: 0;}
+    to {transform: translate(0px, 0px); opacity: 1;}
+}
+
+@keyframes fadeInRight {
+  from {transform: translate(0px, 100px); opacity: 0;}
+    to {transform: translate(0px, 0px); opacity: 1;}
+}
 
 #myName{
   font-size: 54pt;
