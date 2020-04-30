@@ -163,7 +163,7 @@
 }
 
 .about-section {
-  padding-top: 5rem;
+  padding-top: 2rem;
   background: #80c1d1;
 }
 
@@ -172,7 +172,8 @@
 }
 
 .resume-section {
-  padding-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background: #80c1d1;
 }
 
@@ -263,7 +264,7 @@
   width: 3rem;
   background: #002730;
   border-radius: 100%;
-  line-height: 3rem;
+  line-height: 3.75rem;
   color: #047896;
 }
 
