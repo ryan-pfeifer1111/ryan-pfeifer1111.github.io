@@ -287,6 +287,10 @@ a {
   color: #047896;
 }
 
+.a_dark{
+  color: #044254;;
+}
+
 a:focus, a:hover {
   text-decoration: none;
   color: #D0E8E9;
@@ -392,6 +396,15 @@ footer {
 
 .clickable_image:hover {
   filter: brightness(60%);
+}
+
+.clickable_text{
+  cursor: pointer;
+}
+
+.clickable_text:hover {
+  text-decoration: none;
+  color: #D0E8E9;
 }
 
 /* .container:hover .modal_overlay {
