@@ -281,6 +281,7 @@ body {
   background: url(img/Background7.png) center fixed; 
   background-size: cover;
   color: #044254;
+  overflow-x: hidden;
 }
 
 a {
@@ -309,7 +310,7 @@ a:focus, a:hover {
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 
 
@@ -321,6 +322,11 @@ footer {
 
 #descriptor{
   font-size: 34pt;
+  animation-timing-function: ease;
+}
+
+#descriptor_about{
+  font-size: 18pt;
   animation-timing-function: ease;
 }
 
